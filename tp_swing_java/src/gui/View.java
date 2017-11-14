@@ -23,7 +23,7 @@ public class View extends JFrame {
         createEmployeeMenu = new CreateEmployeeMenu(this);
 
         this.getContentPane().removeAll();
-        this.getContentPane().add(createEmployeeMenu);
+        this.add(createEmployeeMenu);
         this.revalidate();
         this.repaint();
         this.setTitle("Create Employee");
